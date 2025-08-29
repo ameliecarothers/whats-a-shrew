@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import shrewHero from './assets/shrew-hero.svg'
+import commonShrew from './assets/common-shrew.svg'
+import waterShrew from './assets/water-shrew.svg'
+import starNosedShrew from './assets/star-nosed-shrew.svg'
+import pygmyShrew from './assets/pygmy-shrew.svg'
 
 function App() {
   const [scrolled, setScrolled] = useState(false)
@@ -58,8 +63,8 @@ function App() {
               minute, shrews live life at an incredible pace that most other mammals couldn't sustain.
             </p>
           </div>
-          <div className="image-placeholder">
-            <p>A beautiful shrew in its natural habitat would appear here - showing its distinctive pointed snout and tiny, bright eyes</p>
+          <div className="shrew-image">
+            <img src={shrewHero} alt="A shrew in its natural habitat showing its distinctive pointed snout and tiny, bright eyes" />
           </div>
         </div>
       </section>
@@ -106,22 +111,30 @@ function App() {
         <h2>Common Shrew Species</h2>
         <div className="species-gallery">
           <div className="species-card">
-            <div className="species-icon">🐭</div>
+            <div className="species-image">
+              <img src={commonShrew} alt="Common Shrew with distinctive brown fur and pointed snout" />
+            </div>
             <h3>Common Shrew</h3>
             <p>Found across Europe, with distinctive brown fur and a pointed snout.</p>
           </div>
           <div className="species-card">
-            <div className="species-icon">💧</div>
+            <div className="species-image">
+              <img src={waterShrew} alt="Water Shrew with water-repellent fur and fringed feet" />
+            </div>
             <h3>Water Shrew</h3>
             <p>Semi-aquatic species with water-repellent fur and fringed feet for swimming.</p>
           </div>
           <div className="species-card">
-            <div className="species-icon">⭐</div>
-            <h3>Star-nosed Shrew</h3>
+            <div className="species-image">
+              <img src={starNosedShrew} alt="Star-nosed Mole with unique star-shaped nose" />
+            </div>
+            <h3>Star-nosed Mole</h3>
             <p>Features a unique star-shaped nose with 22 fleshy appendages.</p>
           </div>
           <div className="species-card">
-            <div className="species-icon">🌙</div>
+            <div className="species-image">
+              <img src={pygmyShrew} alt="Pygmy Shrew, one of the world's smallest mammals" />
+            </div>
             <h3>Pygmy Shrew</h3>
             <p>One of the world's smallest mammals, weighing less than a teaspoon of sugar.</p>
           </div>
