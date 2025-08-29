@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import shrewHero from './assets/four-shrews.jpg'
+import shrewHero from './assets/common-shrew-real.jpg'
 import commonShrew from './assets/common-shrew-real.jpg'
 import waterShrew from './assets/water-shrew-real.jpg'
 import starNosedShrew from './assets/star-nosed-shrew.svg'
@@ -64,7 +64,7 @@ function App() {
             </p>
           </div>
           <div className="shrew-image">
-            <img src={shrewHero} alt="Four different species of shrews showing size and feature variations" />
+            <img src={shrewHero} alt="A common shrew in its natural habitat showing its distinctive pointed snout and brown fur" />
           </div>
         </div>
       </section>
