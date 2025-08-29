@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import shrewHero from './assets/shrew-hero.svg'
-import commonShrew from './assets/common-shrew.svg'
-import waterShrew from './assets/water-shrew.svg'
+import shrewHero from './assets/four-shrews.jpg'
+import commonShrew from './assets/common-shrew-real.jpg'
+import waterShrew from './assets/water-shrew-real.jpg'
 import starNosedShrew from './assets/star-nosed-shrew.svg'
-import pygmyShrew from './assets/pygmy-shrew.svg'
+import pygmyShrew from './assets/pygmy-shrew-real.jpg'
 
 function App() {
   const [scrolled, setScrolled] = useState(false)
@@ -64,7 +64,7 @@ function App() {
             </p>
           </div>
           <div className="shrew-image">
-            <img src={shrewHero} alt="A shrew in its natural habitat showing its distinctive pointed snout and tiny, bright eyes" />
+            <img src={shrewHero} alt="Four different species of shrews showing size and feature variations" />
           </div>
         </div>
       </section>
@@ -112,14 +112,14 @@ function App() {
         <div className="species-gallery">
           <div className="species-card">
             <div className="species-image">
-              <img src={commonShrew} alt="Common Shrew with distinctive brown fur and pointed snout" />
+              <img src={commonShrew} alt="Common Shrew (Sorex araneus) showing its distinctive brown fur and pointed snout" />
             </div>
             <h3>Common Shrew</h3>
             <p>Found across Europe, with distinctive brown fur and a pointed snout.</p>
           </div>
           <div className="species-card">
             <div className="species-image">
-              <img src={waterShrew} alt="Water Shrew with water-repellent fur and fringed feet" />
+              <img src={waterShrew} alt="Water Shrew (Neomys fodiens) with dark fur and semi-aquatic adaptations" />
             </div>
             <h3>Water Shrew</h3>
             <p>Semi-aquatic species with water-repellent fur and fringed feet for swimming.</p>
@@ -133,7 +133,7 @@ function App() {
           </div>
           <div className="species-card">
             <div className="species-image">
-              <img src={pygmyShrew} alt="Pygmy Shrew, one of the world's smallest mammals" />
+              <img src={pygmyShrew} alt="Eurasian Pygmy Shrew (Sorex minutus), one of the world's smallest mammals" />
             </div>
             <h3>Pygmy Shrew</h3>
             <p>One of the world's smallest mammals, weighing less than a teaspoon of sugar.</p>
