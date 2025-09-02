@@ -51,7 +51,7 @@ function App() {
         <div className="intro-content">
           <div className="intro-text">
             <p>
-              Shrews are among nature's most remarkable creatures - tiny insectivorous mammals 
+              Shrews are among nature's most remarkable creatures - | tiny insectivorous mammals 
               that look like miniature mice but are actually more closely related to moles and 
               hedgehogs. Despite their small size (some species weigh less than a penny!), 
               shrews are fierce predators with extraordinary metabolisms.
