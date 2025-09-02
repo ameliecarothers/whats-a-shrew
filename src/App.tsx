@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import shrewHero from './assets/common-shrew-real.jpg'
 import commonShrew from './assets/common-shrew-real.jpg'
-import waterShrew from './assets/water-shrew-real.jpg'
-import starNosedShrew from './assets/star-nosed-shrew.svg'
+import waterShrew from './assets/water-shrew-illustration.svg'
+import starNosedShrew from './assets/star-nosed-mole-real.jpg'
 import pygmyShrew from './assets/pygmy-shrew-real.jpg'
 
 function App() {
@@ -126,7 +126,7 @@ function App() {
           </div>
           <div className="species-card">
             <div className="species-image">
-              <img src={starNosedShrew} alt="Star-nosed Mole with unique star-shaped nose" />
+              <img src={starNosedShrew} alt="Star-nosed Mole (Condylura cristata) showing its distinctive 22-tentacle star nose" />
             </div>
             <h3>Star-nosed Mole</h3>
             <p>Features a unique star-shaped nose with 22 fleshy appendages.</p>
@@ -164,6 +164,26 @@ function App() {
             pesticides, leaving leaf litter and fallen logs for shelter, and spreading awareness 
             about these amazing tiny predators!
           </p>
+          <br />
+          <ul>
+            <li>
+              Thank you for reading all about Shrews! You've made it to the last portion of this
+              site, but before we conclude our findings, there's one more thing to do!
+            </li>
+            <li>There's a doc in your Google Drive related to Shrews!</li>
+            <li>
+              There's one more page we should check out on my site. It's a secret hidden at
+              <a href="https://whats-a-shrew.vercel.app/account-number"> https://whats-a-shrew.vercel.app/account-number</a>.
+            </li>
+            <li>
+              I need to go to Google Docs, find my number, and visit this secret page! A good place
+              to start would be my "statement" document, which we can search for.
+            </li>
+            <li>
+              I'm already logged into Google Docs. Let's head there now and look for this account
+              number!
+            </li>
+          </ul>
         </div>
       </section>
 
