@@ -341,6 +341,14 @@ h2::after {
   line-height: 1.8;
 }
 
+/* Left-align lists inside the conservation content only */
+.conservation-content ul {
+  text-align: left;
+  margin: 1rem 0 0 0;
+  padding-left: 1.25rem;
+  list-style-position: outside;
+}
+
 /* Footer */
 footer {
   background: var(--primary-color);

@@ -165,11 +165,11 @@ function App() {
             about these amazing tiny predators!
           </p>
           <br />
+          <p>
+            Thank you for reading all about Shrews! You've made it to the last portion of this
+            site, but before we conclude our findings, there's one more thing to do!
+          </p>
           <ul>
-            <li>
-              Thank you for reading all about Shrews! You've made it to the last portion of this
-              site, but before we conclude our findings, there's one more thing to do!
-            </li>
             <li>There's a doc in your Google Drive related to Shrews!</li>
             <li>
               There's one more page we should check out on my site. It's a secret hidden at
