@@ -185,7 +185,7 @@ function App() {
 
       {/* Footer */}
       <footer>
-        <p>&copy; 2025 What's a Shrew? | Dedicated to raising awareness about nature's tiniest predators</p>
+        <p>&copy; 2025 What's a Shrew? Dedicated to raising awareness about nature's tiniest predators</p>
         <p>Made with ❤️ for shrews everywhere</p>
         <div className="social-links">
           <a href="#">Learn More</a>
